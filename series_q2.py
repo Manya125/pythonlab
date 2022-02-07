@@ -3,7 +3,7 @@ file_obj = open('prgm2.txt','r+')
 condition = True
 
 
-print("The line that have more than 5 letters and starting with capital letter is:")
+print("The line which have more than 5 letters and starting with capital letter is:")
 
 while condition:
     line = file_obj.readline()
